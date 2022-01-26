@@ -29,8 +29,14 @@ header nav {
     font-size: 50px;
 }
 
+.villanos {
+    width: 60%;
+    padding: 50px;
+}
+
 .sect-heroes {
     padding-top: 40px;
+    border-bottom: 3px solid #ccc;
 }
 
 .sect-heroes figure {
@@ -76,5 +82,11 @@ footer {
         width: 40%;
         padding: 0 !important;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .villanos {
+        width: 100%;
     }
 }
