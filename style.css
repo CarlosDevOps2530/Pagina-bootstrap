@@ -98,10 +98,6 @@ footer {
     .villanos {
         width: 100%;
     }
-
-    .sect-heroes {
-        font-size: 12px;
-    }
 }
 
 @media screen and (max-width: 430px) {
