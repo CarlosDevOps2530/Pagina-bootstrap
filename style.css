@@ -90,6 +90,8 @@ footer {
 
     .sect-heroes figure {
         width: 40%;
+        height: inherit;
+        margin-bottom: 35px;
         padding: 0 !important;
         margin: 0 auto;
     }
