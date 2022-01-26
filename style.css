@@ -1,0 +1,80 @@
+:root {
+    --fondo-principal: #1f2222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+header nav {
+    background-color: var(--fondo-principal);
+}
+
+.img-principal {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sect-principal {
+    background-color: var(--fondo-principal);
+    padding: 10px 0;
+}
+
+.sect-principal h1 {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.sect-heroes {
+    padding-top: 40px;
+}
+
+.sect-heroes figure {
+    width: 65%;
+    height: 285px;
+    margin: 0 20px;
+}
+
+.sect-heroes img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sect-heroes .heroe {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sect-heroes .heroe {
+    padding: 16px;
+}
+
+.sect-heroes h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+footer {
+    background-color: var(--fondo-principal);
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .sect-heroes {
+        text-align: center;
+    }
+    .sect-heroes .heroe {
+        display: block !important; 
+    }
+
+    .sect-heroes figure {
+        width: 40%;
+        padding: 0 !important;
+        margin: 0 auto;
+    }
+}
