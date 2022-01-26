@@ -25,10 +25,6 @@ header nav {
     margin-top: 20px;
 }
 
-.img-principal img {
-    width: 100%;
-}
-
 .sect-principal {
     background-color: var(--fondo-principal);
     padding: 10px 0;
@@ -101,4 +97,15 @@ footer {
     .villanos {
         width: 100%;
     }
+
+    .sect-heroes {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .img-principal img {
+        width: 100%;
+    }
+    
 }
