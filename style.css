@@ -6,6 +6,12 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #fff;
     width: 100vw;
@@ -22,7 +28,7 @@ header nav {
 }
 
 .img-principal {
-    width: 100%;
+    width: 100vw;
     margin-top: 20px;
 }
 
@@ -76,6 +82,30 @@ footer {
     font-size: 22px;
     padding: 20px 0;
 }
+
+.accordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.accordion .card {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
     .sect-heroes {
